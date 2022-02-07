@@ -5,7 +5,7 @@ import '../CSS/Landing.css';
 
 function Landing(props) {
     return (
-        <div className = "main-container dark-background">
+        <div className = "main-container">
             <div className = "container row-container">
                 <div className = "landing-col-1">
                     <p>Hi, my name is</p>
