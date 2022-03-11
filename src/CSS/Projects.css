@@ -1,0 +1,32 @@
+.project-card {
+    width: 75%;
+}
+
+.project-card:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.project-card .project-info {
+    padding: 4% 8% 8% 8%;
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.project-card .project-image img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.project-card h1 {
+    font-size: 25px;
+}
+
+.project-card ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-card li {
+    margin-right: 30px;
+    margin-left: 0;
+}

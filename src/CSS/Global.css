@@ -19,10 +19,21 @@ p, li {
 
 .text-box {
     width: 30%;
+    margin-left: 15%;
 }
 
 .title-box h1 {
     font-size: 80px;
+}
+
+.landing-grid {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    width: 60%;
+}
+
+.logo-container {
+    position: relative;
 }
 
 .landing-section {
@@ -40,7 +51,12 @@ p, li {
     text-align:center;
     justify-content: center;
     align-items: center;
-  }
+    transition: 0.3s;
+}
+
+.landing-section i:hover{
+    background-color: palevioletred;
+}
 
 .landing-section:hover{
     opacity: 1 !important;
@@ -78,4 +94,60 @@ p, li {
 
 .wrapper > * p {
     line-height: 0;
+}
+
+.circle {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    z-index: -1;
+    left: 10%;
+}
+
+.sq-1 {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: -1;
+    top: 25%;
+}
+
+.sq-2 {
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: -1;
+    top: 40%;
+}
+
+@media (width < 1900px) {
+    .main-container {
+        padding: 0;
+    }
+
+    .title-box {
+        width: 70%;
+    }
+
+    .landing-grid {
+        width: 70%;
+    }
+}
+
+@media (width < 1400px) {
+    .title-box {
+        width: 90%;
+    }
+
+    .landing-grid {
+        width: 90%;
+    }
 }

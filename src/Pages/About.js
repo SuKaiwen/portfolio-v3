@@ -14,7 +14,7 @@ function About(props) {
                     I like to code things from scratch and bring life to awesome ideas.</p>
             </div>
             <div className = "title-box">
-                <h2>Skills - Some stuff I can do...</h2>
+                <h2>Some stuff I can do...</h2>
                 <div className = "wrapper">
                     <div>
                         <i class="fab fa-react"></i>
@@ -51,7 +51,7 @@ function About(props) {
                 </div>
             </div>
             <div className = "title-box">
-                <h2>Studying for...</h2>
+                <h2>I am studying for...</h2>
                 <div className = "wrapper">
                     <div>
                         <i class="fas fa-cloud"></i>
