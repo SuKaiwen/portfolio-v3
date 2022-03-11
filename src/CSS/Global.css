@@ -1,114 +1,81 @@
-.container {
-    width: 60%;
-    padding: 0 20%;
+.main-container {
     display: flex;
     flex-direction: column;
-    color: black;
-    margin-bottom: 100px;
-}
-
-.main-container {
     width: 100%;
-    height: 100vh;
-}
-
-.row-container {
-    flex-direction: row;
+    box-sizing: border-box;
+    padding: 100px 10%;
     justify-content: center;
-    height: 100%;
     align-items: center;
     text-align: left;
 }
 
-.row-container .col {
-    width: 50%;
+p, li {
+    opacity: 0.75;
 }
 
-.row-container .col-40 {
-    width: 40%;
-}
-
-.row-container .col-60 {
+.title-box {
     width: 60%;
 }
 
-.row-container h1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: #444444;
-    line-height: 1;
+.text-box {
+    width: 30%;
 }
 
-.row-container p {
-    color: #838383;
+.title-box h1 {
+    font-size: 80px;
 }
 
-.row-container img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-    border-radius: 20px;
+.landing-section {
+    font-size: 25px;
+    transition: 0.3s;
 }
 
-.row {
+.landing-section i {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+  }
+
+.landing-section:hover{
+    opacity: 1 !important;
+    transform: scale(1.25);
+}
+
+.row-just {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.row > * {
-    margin-right: 20px;
+.row-just p {
+    font-size: 25px;
+    
+    opacity: 1 !important;
 }
 
-.text-box {
-    box-sizing: border-box;
-    width: 90%;
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.text-box p {
-    line-height: 1.2;
+.wrapper > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
 }
 
-.btn {
-    border: none;
-    color: white;
-    padding: 13px;
-    background-color: #273043;
+.wrapper > * i {
+    margin-right: 10px;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
-/* themes */
-.dark-background {
-    background-color: #000026;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-/* colors */
-.blue {
-    color: #0000A3;
-}
-
-.dark-blue {
-    color: #0e387a;
-}
-
-.black {
-    color: black;
-}
-
-.dark-gray {
-    color: #444444;
-}
-
-.light-gray {
-    color: #838383;
-}
-
-.pink {
-    color: #FF92A5;
+.wrapper > * p {
+    line-height: 0;
 }

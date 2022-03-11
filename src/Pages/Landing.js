@@ -6,18 +6,19 @@ import '../CSS/Landing.css';
 function Landing(props) {
     return (
         <div className = "main-container">
-            <div className = "container row-container">
-                <div className = "landing-col-1">
-                    <p>Hi, my name is</p>
-                    <h1>Kevin Su</h1>
-                    <h1>Welcome to my portfolio</h1>
-                    <div className = "text-box">
-                        <p>I am a Software Engineer from Sydney, Australia. I specialize in Front-End Development and Creating Digital Solutions.</p>
-                    </div>
-                    <div className = "row">
-                        <button className = "btn"><i class="fas fa-arrow-right fa-2x"></i></button><p>Scroll to learn more </p>
-                    </div>
-                </div>
+            <div className = "title-box">
+                <p>Hi there! I'm Kevin Su.</p>
+                <h1>A Software Engineer, Design and <i class="fas fa-cloud"></i> Cloud Enthusiast based in Sydney, Australia.</h1>
+            </div>
+            <div className = "text-box">
+                <p>I'm a Software Engineer specialising in Front-End Development and building awesome user experiences. Check me out down below!</p>
+            </div>
+            <div className = "text-box">
+                <p className = "landing-section"><i class="fas fa-envelope"></i> Kevinsu@outlook.co.nz</p>
+                <p className = "landing-section"><i class="fab fa-github"></i> SuKaiwen</p>
+                <p className = "landing-section"><i class="fab fa-linkedin"></i> Kevin Su</p>
+                <p className = "landing-section"><i class="fas fa-file"></i> Resume</p>
+                <p className = "landing-section"><i class="fas fa-code"></i> Featured Projects</p>
             </div>
         </div>
     );
