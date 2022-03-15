@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Shippori Antique B1', sans-serif;
+  font-family: 'Arimo', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#2A2AE5;
-  color: white;
+  background-color:#f9f9f9;
+  color: #1e1e1e;
 
 }
 

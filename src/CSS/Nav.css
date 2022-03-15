@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 12.5%;
+}
+
+.nav h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+}
+
+.content > * {
+    margin-left: 10px;
+}

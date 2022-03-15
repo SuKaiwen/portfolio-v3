@@ -1,0 +1,11 @@
+.about-container {
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0 12.5%;
+    text-align: left;
+}
+
+.about-container h1 {
+    font-size: 70px;
+}

@@ -2,11 +2,13 @@ import React from 'react';
 
 function Nav(props) {
     return (
-        <div>
-            <label class="switch">
-                <input type="checkbox" checked />
-                <span class="slider round"></span>
-            </label>
+        <div className = "nav">
+            <h1>KEVIN SU</h1>
+            <div className = "content">
+                <h1>ABOUT</h1>
+                <h1>EXPERIENCE</h1>
+                <h1>PROJECTS</h1>
+            </div>
         </div>
     );
 }
