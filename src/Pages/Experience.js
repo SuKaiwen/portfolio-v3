@@ -56,6 +56,7 @@ function Experience(props) {
                     </div>
                 </div>
             </div>
+            <br id = "projects" />
         </div>
     );
 }

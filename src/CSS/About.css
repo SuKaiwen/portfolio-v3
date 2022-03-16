@@ -50,3 +50,72 @@
 .about-grid h1 {
     margin: 0;
 }
+
+.about-top-section h2, p{
+    font-size: 18px !important;
+}
+
+@media (width < 1900px) {
+    .about-top-section h2, p{
+        font-size: 15px !important;
+    }
+}
+
+@media (width < 1600px) {
+    .about-top-section {
+        width: 75%;
+    }
+
+    .about-container {
+        padding: 200px 12.5% 100px 12.5%;
+        font-size: 15px;
+    }
+}
+
+@media (width < 1200px) {
+    .about-top-section h2, p{
+        font-size: 12px !important;
+    }
+
+    .about-grid p {
+        font-size: 15px !important;
+    }
+
+    .about-grid > * {
+        padding-right: 0;
+    }
+
+    #main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #main-grid > * {
+        margin: 25px 0;
+    }
+}
+
+@media (width < 900px) {
+    .about-container {
+        padding: 200px 5% 100px 5%;
+    }
+    
+    .about-top-section {
+        width: 100%;
+        margin-left: -5%;
+        padding: 30px 20px;
+    }
+}
+
+@media (width < 570px) {
+    .about-top-section {
+        height: 330px;
+    }
+    
+    .about-top-section .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-container {
+        padding: 240px 5% 100px 5%;
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div className = "main-container">
+        <div className = "main-container" id = "about">
             <div className='about-container'>
                 <div className = "about-top-section">
                     <div className = "about-grid">
@@ -20,7 +20,7 @@ function About(props) {
                         </div>
                     </div>
                 </div>
-                <div className = "about-grid">
+                <div className = "about-grid" id = "main-grid">
                     <div>
                         <h1 className = "bold">💡 Always learning and testing out new languages and frameworks to add to my tech stack.</h1>
                     </div>
@@ -30,7 +30,7 @@ function About(props) {
                         <p>I have developed several front-end applications as well as assisted in the creation and maintenance of websites for multi-million dollar clients.</p>
                     </div>
                     <div>
-                        <h2>Somethings I can do include...</h2>
+                        <h2 className = "bold">Technical Skills</h2>
                         <ul>
                             <li>HTML, CSS, JS</li>
                             <li>Java, Python</li>
@@ -38,16 +38,26 @@ function About(props) {
                             <li>Bootstrap, SaSS, Tailwind CSS</li>
                             <li>Version Control</li>
                             <li>Responsive Design</li>
+                            <li>Sitecore Content Hub CMS</li>
                         </ul>
                         <br />
-                        <h2>I am currently learning...</h2>
+                        <h2 className = "bold">Soft Skills</h2>
+                        <ul>
+                            <li>Excellent Communicator</li>
+                            <li>Fast Learner</li>
+                            <li>Team Player</li>
+                            <li>Multi-Tasker</li>
+                        </ul>
+                        <br />
+                        <h2 className = "bold">Pursuing Skills</h2>
                         <ul>
                             <li>AWS Cloud Services</li>
-                            <li>Design Applications e.g. Figma</li>
+                            <li>Figma, Photoshop, Adobe Illustrator</li>
                         </ul>
                     </div>
                 </div>
-                <p>WORK EXPERIENCE - WHERE I HAVE WORKED</p>
+                <br id = "experience" />
+                <p >WORK EXPERIENCE - WHERE I HAVE WORKED</p>
             </div>
         </div>
     );

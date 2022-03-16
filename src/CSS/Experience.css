@@ -40,3 +40,54 @@
 .exp-card li p {
     margin: 0;
 }
+
+@media (width < 2000px) {
+    .exp-container {
+        height: 600px;
+    }
+}
+
+@media (width < 1600px) {
+    .exp-top-section {
+        width: 75%;
+    }
+}
+
+@media (width < 1200px) {
+    .exp-top-section {
+        width: 75%;
+    }
+}
+
+@media (width < 1000px) {
+    .exp-container {
+        height: 650px;
+    }
+}
+
+@media (width < 900px) {
+    .exp-top-section {
+        width: 90%;
+    }
+}
+
+
+@media (width < 768px) {
+    .exp-card {
+        grid-template-columns: 1fr;
+    }
+
+    .exp-card > * {
+        padding: 30px;
+    }
+
+    .exp-container {
+        height: 800px;
+    }
+}
+
+@media (width < 480px) {
+    .exp-container {
+        height: 950px;
+    }
+}

@@ -16,6 +16,7 @@
     background-color: #FFE713;
     padding: 5px;
     color: black;
+    padding-bottom: 6px;
 }
 
 .nav .blue-box {
@@ -46,4 +47,38 @@
 .content h1:hover {
     background-color: blue;
     color: white;
+}
+
+@media (width < 1200px) {
+    .nav {
+        padding: 0 7.5%;
+        height: 56px;
+    }
+
+    .nav h1 {
+        font-size: 18px;
+    }
+
+    .nav .blue-box{
+        padding: 5px;
+    }
+
+    .nav .yellow-box{
+        display:none;
+    }
+}
+
+@media (width < 768px) {
+    .nav {
+        padding: 0 5%;
+        height: 52px;
+    }
+
+    .nav h1 {
+        font-size: 12px;
+    }
+
+    .nav .blue-box {
+        padding: 10px;
+    }
 }

@@ -12,6 +12,10 @@
     margin-bottom: 100px;
 }
 
+.project-grid p {
+    font-size: 15px !important;
+}
+
 .project-grid > * {
     width: 49.5%;
 }
@@ -33,4 +37,25 @@
 
 .project-grid img:hover {
     transform:scale(1.5);
+}
+
+@media (width < 1600px) {
+    .projects-container {
+        width: 75%;
+        padding: 0 12.5%;
+    }
+}
+
+@media (width < 1200px) {
+    .project-grid > * {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (width < 900px) {
+    .projects-container {
+        width: 90%;
+        padding: 0 5%;
+    }
 }
