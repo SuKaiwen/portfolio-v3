@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    padding: 100px 0;
     text-align: left;
 }
 
@@ -24,8 +23,8 @@ h1 {
     text-align: right;
 }
 
-p, li {
-    opacity: 0.75;
+.bold {
+    font-weight: bold;
 }
 
 .title-box {
@@ -56,8 +55,14 @@ p, li {
     transition: 0.3s;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .row > * {
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 .row-just {
@@ -69,7 +74,6 @@ p, li {
 
 .row-just p {
     font-size: 25px;
-    opacity: 1 !important;
 }
 
 .wrapper {
@@ -94,7 +98,8 @@ p, li {
 
 .btn {
     font-size: 20px;
-    border: 3px solid #1e1e1e;
+    border: 3px solid blue;
+    color: blue;
     border-radius: 25px;
     width: 150px;
     height: 50px;
@@ -103,7 +108,7 @@ p, li {
 }
 
 .btn:hover {
-    background-color: #1e1e1e;
+    background-color: blue;
     color: white;
 }
 
@@ -125,28 +130,6 @@ p, li {
     background-color: palevioletred;
     z-index: -1;
     left: 10%;
-}
-
-.sq-1 {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: white;
-    opacity: 0.9;
-    z-index: -1;
-    top: 25%;
-}
-
-.sq-2 {
-    position: absolute;
-    width: 350px;
-    height: 80px;
-    border-radius: 40px;
-    background-color: white;
-    opacity: 0.9;
-    z-index: -1;
-    top: 40%;
 }
 
 @media (width < 1900px) {

@@ -2,14 +2,33 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #fefefe;
+    z-index: 2;
     width: 100%;
     box-sizing: border-box;
     padding: 0 12.5%;
+    height: 65px;
+    position: sticky;
+    top: 0;
+}
+
+.nav .yellow-box {
+    background-color: #FFE713;
+    padding: 5px;
+    color: black;
+}
+
+.nav .blue-box {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    padding-right: 0;
 }
 
 .nav h1 {
     font-size: 22px;
     font-weight: bold;
+    padding: 5px;
 }
 
 .content {
@@ -18,4 +37,13 @@
 
 .content > * {
     margin-left: 10px;
+}
+
+.content h1 {
+    transition: 0.5s;
+}
+
+.content h1:hover {
+    background-color: blue;
+    color: white;
 }

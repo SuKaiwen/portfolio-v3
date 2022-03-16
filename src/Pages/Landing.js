@@ -9,10 +9,13 @@ function Landing(props) {
                 <div>
                 </div>
                 <div>
-                    <h1>KEVIN SU</h1>
+                    <h1>👋 Hey there! I’m Kevin, a Software Engineer based in Sydney, Australia. I enjoy implementing cool ideas and taking on new challenges.</h1>
                     <h2>Software Engineer | Front-End Developer</h2>
                     <button className = "btn">RESUME</button>
                     <h3>SCROLL TO CONTINUE</h3>
+                </div>
+                <div className = "center">
+                    <img src = {me} alt = "me" />
                 </div>
                 <div className = "right">
                     <p>LINKEDIN <i class="fab fa-linkedin"></i></p>

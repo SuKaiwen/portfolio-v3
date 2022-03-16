@@ -1,3 +1,42 @@
 .exp-title {
     margin: 5px 0;
 }
+
+.exp-container {
+    color: black;
+    background-color: #fefefe;
+    height: 500px;
+}
+
+.exp-top-section {
+    background-color: #fefefe;
+    width: 60%;
+    top: -100px;
+    position: absolute;
+    height: 200px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.exp-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 40px;
+}
+
+.exp-card > * {
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.exp-card > *:first-child {
+    background-color: #FFE713;
+}
+
+.exp-card li p {
+    margin: 0;
+}

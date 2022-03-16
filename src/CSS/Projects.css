@@ -1,6 +1,6 @@
 .projects-container {
-    width: 75%;
-    padding: 0 12.5%;
+    width: 60%;
+    padding: 0 20%;
 }
 
 .project-grid {
@@ -9,10 +9,15 @@
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .project-grid > * {
     width: 49.5%;
+}
+
+.project-grid .row {
+    margin-bottom: 20px;
 }
 
 .project-grid .image-container {

@@ -5,12 +5,14 @@ import './CSS/Landing.css';
 import './CSS/Projects.css';
 import './CSS/Nav.css';
 import './CSS/Experience.css';
+import './CSS/Contact.css';
 
 import Landing from './Pages/Landing';
 import About from './Pages/About';
 import Experience from './Pages/Experience';
 import Projects from './Pages/Projects';
 import Nav from './Components/Nav';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }

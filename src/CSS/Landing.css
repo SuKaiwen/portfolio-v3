@@ -1,7 +1,8 @@
 .landing-grid {
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     width: 100%;
+    height: calc(100vh - 50px);
     min-height: 1000px;
 }
 
@@ -14,7 +15,9 @@
 
 .landing-grid i {
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
     padding: 10px;
     width:30px;
     height: 30px;
@@ -24,15 +27,19 @@
     align-items: center;
 }
 
+.landing-grid p {
+    color: blue;
+}
+
 .landing-grid p:hover{
-    opacity: 1 !important;
     transform: scale(1.25);
 }
 
 .landing-grid h1 {
     animation: 1s ease-out 0s 1 slideUp;
-    font-size: 250px;
-    line-height: 0.8;
+    font-size: 50px;
+    letter-spacing: 2px; 
+    line-height: 1;
 }
 
 .landing-grid h2 {
@@ -42,21 +49,6 @@
 .landing-grid p {
     font-size: 22px;
     transition: 0.3s;
-}
-
-.landing-grid .btn {
-    font-size: 20px;
-    border: 3px solid #1e1e1e;
-    border-radius: 25px;
-    width: 150px;
-    height: 50px;
-    background-color: inherit;
-    transition: 0.3s;
-}
-
-.landing-grid .btn:hover {
-    background-color: #1e1e1e;
-    color: white;
 }
 
 .landing-grid img {
